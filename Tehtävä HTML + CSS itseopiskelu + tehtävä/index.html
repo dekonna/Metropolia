@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Olarin Pizza</title>
+    <link href="static/css/style.css" rel="stylesheet">
+    <meta name="description" content="Olarin Pizza tarjoaa herkullista pizzaa, kebabia ja viikoittaisia tarjouksia.">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>Olarin Pizzeria</h1>
+</header>
+
+<nav class="navbar">
+
+    <a href="index.html" class="logo">
+        <img src="static/img/pizzalogo.webp" alt="Etusivu">
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+        <li><a href="ostoskori.html">Ostoskori</a></li>
+        <li><a href="kirjaudu.html">Kirjaudu</a></li>
+    </ul>
+
+</nav>
+
+<main>
+
+    <section>
+
+        <article class="content-box">
+
+            <div class="ravintola-container">
+                <figure>
+                    <img src="static/img/napoli.webp"
+                    class="ravintola-kuva"
+                    alt="Ravintolan sisätila"
+                    loading="lazy"
+                    width="400">
+                    <figcaption>Viihtyisä ja valoisa ravintola</figcaption>
+                </figure>
+
+            <div class="ravintola-teksti">
+                <h2>Ravintola</h2>
+                <p>Viihtyisä ja valoisa tila.</p>
+                <p>Tule nauttimaan pizzasta!</p>
+            </div>
+            </div>
+
+            <div class="uuni-container">
+                <figure>
+                    <img src="static/img/uuni.webp"
+                    class="uuni-kuva"
+                    alt="Pizzauuni"
+                    loading="lazy"
+                    width="400">
+                    <figcaption>Kiviuuni</figcaption>
+                </figure>
+
+            <div class="uuni-teksti">
+                <h3>Kiviuuni</h3>
+                <p>Nam nam</p>
+                <p>Hyvää pizzaa.</p>
+            </div>
+            </div>
+
+        </article>
+
+    </section>
+
+    <aside>
+            <h2>Suosituimmat</h2>
+        <ol>
+            <li>Bolognese</li>
+            <li>Kebab Ranskalaisilla</li>
+            <li>Americano</li>
+            <li>Empire Special</li>
+            <li>Pepperoni</li>
+            <li>Pita Kebab</li>
+            <li>Caesar-salaatti</li>
+            <li>Kana Rulla</li>
+            <li>Falafel Riisillä</li>
+            <li>Kebab Salaatti</li>
+        </ol>
+            <h2>Tarjoukset</h2>
+        <ol>
+            <li>2kpl Pizza + 1,5l Pepsi 20e</li>
+            <li>2kpl Kebab + 1,5l Pepsi 18e</li>
+        </ol>
+    </aside>
+
+</main>
+
+<footer>
+    <h3>Haluatko sähköpostia viikkotarjouksista?</h3>
+    <form action="#">
+        <label for="email">Sähköposti</label>
+        <input type="email" id="email" name="email" placeholder="Your email address">
+        <input type="submit" value="Send">
+    </form>
+</footer>
+
+</div>
+<script src="static/js/pizzasade.js"></script>
+</body>
+
+</html>
